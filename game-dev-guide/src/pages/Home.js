@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import NavBar from '../components/NavBar';
 import { Link } from 'react-router-dom';
 import Categories from '../components/Categories';
 import Tools from '../components/Tools';
+import News from '../components/News';
 import '../App.css';
 
 
 function Home() {
+
   return(
     <>
     <div className = "homePg">

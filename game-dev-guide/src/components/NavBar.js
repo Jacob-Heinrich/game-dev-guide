@@ -8,10 +8,8 @@ function NavBar() {
     <>
     <div className = "navbar">
     <h1 className = "title">Game Dev Guide</h1>
-    <Link to="" className = "preferences">Preference 1</Link>
-    <Link to="" className = "preferences">Preference 2</Link>
     <Link to="/" className = "homeBtn">Home</Link>
-    <Link to="" className = "login">Login/Profile</Link>
+    <Link to="/login" className = "login">Login/Profile</Link>
     </div>
     </>
   )

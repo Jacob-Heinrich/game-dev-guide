@@ -1,5 +1,5 @@
 body{
-  background-color:black;
+  background-color:white;
 }
 
 
@@ -10,6 +10,7 @@ body{
   bottom:2rem;
   height:4rem;
   color:#F5F5F5;
+  width:100%;
 }
 
 .title{
@@ -19,32 +20,12 @@ body{
   text-decoration:underline;
 }
 
-.preferences{
-  display:inline-block;
-  position:relative;
-  bottom:4em;
-  left:10em;
-  margin:1em;
-  color:black;
-  text-decoration:none;
-  border:2px solid;
-  padding:.5em;
-  background-color:#F5F5F5;
-  box-shadow:5px 5px 10px;
-}
-
-.preferences:hover{
-  background-color:#eeaf36;
-  transform:scale(1.2);
-  transition:transform 1s ease-in-out;
-  box-shadow:20px 20x 20px;
-}
 
 .homeBtn{
   display:inline-block;
   position:relative;
-  bottom:4em;
-  right:15em;
+  bottom:3em;
+  left:2em;
   text-decoration:none;
   color:black;
   border:2px solid;
@@ -61,8 +42,8 @@ body{
 .login{
   display:inline-block;
   position:relative;
-  left:55em;
-  bottom:4em;
+  left:75em;
+  bottom:3em;
   text-decoration:none;
   color:black;
   border:2px solid;
@@ -196,4 +177,138 @@ body{
   transform:scale(1.2);
   transition:transform 1s ease-in-out;
   box-shadow:20px 20x 20px;
+}
+
+/*  Tools Page */
+
+
+.toolsHeader{
+  color:white;
+  text-align:center;
+}
+
+.toolsContainer{
+  display:grid;
+  grid-template: 20em 20em 20em 20em;
+  justify-content: center;
+  grid-gap:1em;
+}
+.column{
+  border:1px solid;
+  border-color:white;
+  padding:3em;
+  border-radius:2em;
+  background-color:grey;
+}
+
+.column h1{
+  text-decoration:underline;
+}
+
+.column__column1{
+  color:white;
+  grid-column-start: 1;
+}
+
+.column__column2{
+  color:white;
+  grid-column-start:2;
+}
+
+.column__column3{
+  color:white;
+  grid-column-start:3;
+}
+
+.column__column4{
+  color:white;
+  grid-column-start:4;
+}
+
+.itemList{
+  width:100%;
+  padding-left:0em;
+}
+
+.itemList li{
+  list-style:none;
+  padding:1em;
+  text-align:center;
+}
+
+.itemList a{
+  text-decoration: none;
+  color:white;
+  font-size:20px;
+}
+
+.price{
+  text-align:center;
+}
+
+.popupBtn{
+  font-size:20px;
+  border-radius:50%;
+  background-color:rgb(180,180,180,.2);
+  color:white;
+}
+
+.modelingPop{
+  display:inline;
+  margin-left:1em;
+}
+
+.modelingPopBody{
+  background-color:rgb(0,0,0,.8);
+  height:40em;
+  width:40em;
+  border:1px solid;
+  color:white;
+  border-radius:1em;
+}
+
+.modelingContent{
+  text-align:center;
+}
+
+/* Login Page */
+.loginContainer{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.loginSubmit{
+  position: absolute;
+  left: 50%;
+  top: 120%;
+  transform: translate(-50%, -50%);
+}
+
+.submitBtn{
+  font-size:24px;
+  border-radius:.2em;
+  padding:6px;
+}
+
+.loginForm{
+  background-color:white;
+  justify-content: center;
+}
+
+.loginContainer label{
+  font-size:20px;
+}
+
+.loginContainer input{
+  padding:.5em;
+}
+
+.userName{
+  margin-bottom:2em;
+}
+
+.test{
+  color:white;
 }

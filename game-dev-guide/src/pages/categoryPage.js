@@ -8,7 +8,7 @@ function CategoryPage() {
   return(
     <>
     <NavBar />
-    <Link to ="" className = "categoryTools">Tools</Link>
+    <Link to ="/tools" className = "categoryTools">Tools</Link>
     <div className = "category">
     <Link to = "" className = "categoryItem categoryItem__illustration">Illustration
     <p  id = "categoryDescription">
